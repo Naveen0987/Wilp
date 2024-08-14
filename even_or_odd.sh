@@ -1,3 +1,4 @@
+clear
 echo	'hello enter number to check even or odd'
 
 read num
