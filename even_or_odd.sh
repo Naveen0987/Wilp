@@ -1,10 +1,11 @@
- echo	'hello enter number to check even or odd'
+clear
+echo	'hello enter number to check even or odd'
 
 read num
 
 echo	'here is your result'
 
-if [ `expr $num % 2 == 0 ` ] 
+if (( $num % 2 == 0 )) 
 then 
 
 echo 	'given number is even'
