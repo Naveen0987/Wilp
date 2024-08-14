@@ -5,7 +5,7 @@ read num
 
 echo	'here is your result'
 
-if (( $num % 2 == 0 )) 
+if [ `expr $num % 2 == 0 ` ] 
 then 
 
 echo 	'given number is even'
